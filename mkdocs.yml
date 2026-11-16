@@ -1,0 +1,10 @@
+site_name: Vaani - The Book
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Vision: 00-vision.md
+  - Big Picture: 01-big-picture.md
+  - Glossary: 02-glossary.md
+  - Failures and Lessons: failures.md
+  - Changelog: changelog.md
