@@ -1,10 +1,24 @@
 site_name: Vaani - The Book
 theme:
   name: material
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: true
 nav:
   - Home: index.md
   - Vision: 00-vision.md
   - Big Picture: 01-big-picture.md
   - Glossary: 02-glossary.md
+  - Chapters:
+      - "1. Measuring speech accuracy (WER)": chapters/01-measuring-wer.md
   - Failures and Lessons: failures.md
   - Changelog: changelog.md
