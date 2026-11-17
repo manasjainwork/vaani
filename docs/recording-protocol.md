@@ -40,3 +40,15 @@ ffmpeg -i input.m4a -ar 16000 -ac 1 clip_001.wav
 ## The manifest file
 
 One line of JSON per clip. See `data_example/manifest.example.jsonl` for the format. The loader in `src/vaani/data.py` refuses a clip that has no consent, an empty transcript, or broken turn times.
+
+## What "turns" means in the manifest
+
+Each clip holds exactly **one user turn**: one thing the speaker wanted to say, from the first word to the last word.
+
+The `turns` list holds the stretches of real speech inside that one turn. A gap between two stretches is a **pause inside the turn**, not the end of the turn. This matters for the VAD test:
+
+- If the system decides the turn is over while the speaker is still going to continue (inside a gap, or before the last stretch ends), that is a **cut-off**.
+- If the system waits much longer than needed after the last stretch ends, that is a **late end**.
+- If the system hears speech where there is only noise, that is a **false start**.
+
+Turn times are marked by a human listening to the clip. A script may suggest them, but the suggestion is never the truth.
