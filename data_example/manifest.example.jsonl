@@ -1,0 +1,2 @@
+{"id": "example_001", "audio": "audio/example_001.wav", "text": "bhai mera order kab aayega", "turns": [{"start": 0.35, "end": 2.40}], "speaker": "s1", "consent": true, "notes": "quiet room"}
+{"id": "example_002", "audio": "audio/example_002.wav", "text": "refund ka status kya hai", "turns": [{"start": 0.50, "end": 1.80}, {"start": 3.10, "end": 4.60}], "speaker": "s2", "consent": true, "notes": "long pause in the middle"}

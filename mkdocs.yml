@@ -18,6 +18,7 @@ nav:
   - Vision: 00-vision.md
   - Big Picture: 01-big-picture.md
   - Glossary: 02-glossary.md
+  - Recording protocol: recording-protocol.md
   - Chapters:
       - "1. Measuring speech accuracy (WER)": chapters/01-measuring-wer.md
   - Failures and Lessons: failures.md
