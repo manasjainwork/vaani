@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-18",
+  "settings": {
+    "model": "small",
+    "language": "auto",
+    "device": "cpu",
+    "compute_type": "int8"
+  },
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "gpu_memory_used_mib_after_load": null,
+  "model_load_seconds": 130.69,
+  "corpus_wer": 1.0,
+  "clips": [
+    {
+      "id": "clip_001",
+      "wer": 1.0,
+      "substitutions": 10,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_words": 11,
+      "seconds": 3.06
+    },
+    {
+      "id": "clip_002",
+      "wer": 1.0,
+      "substitutions": 13,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 13,
+      "seconds": 3.44
+    },
+    {
+      "id": "clip_003",
+      "wer": 1.0,
+      "substitutions": 15,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_words": 16,
+      "seconds": 3.27
+    },
+    {
+      "id": "clip_004",
+      "wer": 1.0,
+      "substitutions": 16,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_words": 18,
+      "seconds": 16.12
+    },
+    {
+      "id": "clip_005",
+      "wer": 1.0,
+      "substitutions": 12,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 12,
+      "seconds": 3.69
+    }
+  ]
+}

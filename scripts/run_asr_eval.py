@@ -106,7 +106,7 @@ def main() -> None:
             for s in scores
         ],
     }
-    out_file.write_text(json.dumps(report, indent=2), encoding="utf-8")
+    out_file.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(f"Saved numbers (no text) to {out_file}")
 
 
