@@ -24,6 +24,7 @@ dev = [
     "ruff>=0.17.5",
 ]
 gpu = [
+    "faster-whisper>=1.2.1",
     "torch>=2.15.0",
 ]
 
