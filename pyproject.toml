@@ -25,6 +25,10 @@ dev = [
 ]
 gpu = [
     "faster-whisper>=1.2.1",
+    "kokoro>=0.9.4",
+    "nvidia-cublas-cu12>=12.9.3.13",
+    "nvidia-cudnn-cu12==9.*",
+    "soundfile>=0.14.0",
     "torch>=2.15.0",
 ]
 
