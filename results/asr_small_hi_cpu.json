@@ -8,7 +8,7 @@
   },
   "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
   "gpu_memory_used_mib_after_load": null,
-  "model_load_seconds": 3.41,
+  "model_load_seconds": 2.43,
   "corpus_wer": 1.0,
   "clips": [
     {
@@ -18,7 +18,7 @@
       "deletions": 1,
       "insertions": 0,
       "reference_words": 11,
-      "seconds": 1.88
+      "seconds": 2.08
     },
     {
       "id": "clip_002",
@@ -27,7 +27,7 @@
       "deletions": 0,
       "insertions": 0,
       "reference_words": 13,
-      "seconds": 1.89
+      "seconds": 2.03
     },
     {
       "id": "clip_003",
@@ -36,7 +36,7 @@
       "deletions": 1,
       "insertions": 0,
       "reference_words": 16,
-      "seconds": 2.41
+      "seconds": 2.23
     },
     {
       "id": "clip_004",
@@ -45,7 +45,7 @@
       "deletions": 1,
       "insertions": 0,
       "reference_words": 18,
-      "seconds": 7.42
+      "seconds": 7.99
     },
     {
       "id": "clip_005",
@@ -54,7 +54,7 @@
       "deletions": 0,
       "insertions": 0,
       "reference_words": 12,
-      "seconds": 2.01
+      "seconds": 2.4
     }
   ]
 }
