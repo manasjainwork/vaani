@@ -44,7 +44,10 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     clips = load_manifest(args.manifest)
+    import ctranslate2
     from faster_whisper import WhisperModel  # imported late, it is a heavy library
+
+    ctranslate2.set_random_seed(0)  # same clip, same text on every run
 
     started = time.perf_counter()
     model = WhisperModel(args.model, device=args.device, compute_type=args.compute_type)

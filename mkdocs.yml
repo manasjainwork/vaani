@@ -21,5 +21,6 @@ nav:
   - Recording protocol: recording-protocol.md
   - Chapters:
       - "1. Measuring speech accuracy (WER)": chapters/01-measuring-wer.md
+      - "2. The first talking agent": chapters/02-first-talking-agent.md
   - Failures and Lessons: failures.md
   - Changelog: changelog.md
